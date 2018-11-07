@@ -1,6 +1,6 @@
-<section class="property-binding">
+<!-- <section class="property-binding">
 
-<!-- <article>
+<article>
   <h3> Interpolation / Interpolação</h3>
   <p>String renderizada com interpolação: {{ url }}</p>
   <p>Resultado de 1 + 1 é: {{ 1 + 1 }}</p>
@@ -15,7 +15,7 @@
   <img src="https://via.placeholder.com/150" alt="">
 
 
-</article> -->
+</article> 
 
 <article>
   <h3>Class e Style Binding</h3>
@@ -53,5 +53,34 @@
 
   </div>
 </article>
+
+</section> -->
+
+<section class="event-binding">
+
+  <article>
+
+    <h3>Event Binding </h3>
+      <button (click)="botaoClicado()" class="btn btn-primary">Clique</button>
+
+  </article>
+
+  <br><br>
+
+  <input type="text" 
+  (keyup)="apertado($event)" 
+  (keyup.enter)="salvarValor(campoinput.value)"
+  #campoinput
+  >
+
+  <p>A tecla apertada foi: {{ letra }}</p>
+  <p>Valor Salvo: {{ valorSalvo }}</p>
+
+  <span
+    (mouseover)="onMouseOverOut()"
+    (mouseout)="onMouseOverOut()"
+    [class.highlight]="isMouseOver"
+  >
+  mouse sobre mim</span>
 
 </section>

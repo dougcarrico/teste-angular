@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { sanitizeIdentifier } from '@angular/compiler';
 
 @Component({
   selector: 'app-data-brinding',
@@ -14,6 +15,11 @@ export class DataBrindingComponent implements OnInit {
   letra: string;
   valorSalvo:string;
   isMouseOver: boolean = false;
+  nome: string = 'abc';
+  pessoa: any = {
+    nome: 'sanitizeIdentifier',
+    idade: 20
+  };
 
   getValor(){
     return 3;

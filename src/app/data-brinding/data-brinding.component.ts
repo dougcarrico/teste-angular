@@ -7,7 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DataBrindingComponent implements OnInit {
 
-  constructor() { }
+  url: string = 'http://loiane.com';
+  cursoAngular: boolean = true;
+  urlImagem = 'https://via.placeholder.com/150';
+
+
+
+  getValor(){
+    return 3;
+  }
+
+  getCurtirCurso(){
+    return true;
+  }
+
+  constructor() { 
+  }
 
   ngOnInit() {
   }

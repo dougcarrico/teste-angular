@@ -12,6 +12,7 @@ import { DataBrindingComponent } from './data-brinding/data-brinding.component';
 import { InputPropertyComponent } from './input-property/input-property.component';
 import { OutputPropertyComponent } from './output-property/output-property.component';
 import { CicloComponent } from './ciclo/ciclo.component';
+import { DougTesteComponent } from './doug-teste/doug-teste.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { CicloComponent } from './ciclo/ciclo.component';
     InputPropertyComponent,
     OutputPropertyComponent,
     CicloComponent,
+    DougTesteComponent,
     
   ],
   imports: [

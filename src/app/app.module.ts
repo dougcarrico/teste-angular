@@ -9,6 +9,7 @@ import {MeuPrimeiroComponent} from './meu-primeiro/meu-primeiro.component';
 import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
 import { CursosModule } from './cursos/cursos.module';
 import { DataBrindingComponent } from './data-brinding/data-brinding.component';
+import { InputPropertyComponent } from './input-property/input-property.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { DataBrindingComponent } from './data-brinding/data-brinding.component';
     MeuPrimeiroComponent,
     MeuPrimeiro2Component,
     DataBrindingComponent,
+    InputPropertyComponent,
     
   ],
   imports: [

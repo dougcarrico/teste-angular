@@ -21,6 +21,8 @@ export class DataBrindingComponent implements OnInit {
     idade: 20
   };
 
+  nomeDoCurso: string = 'Angular';
+
   getValor(){
     return 3;
   }

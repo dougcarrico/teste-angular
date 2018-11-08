@@ -10,6 +10,7 @@ import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
 import { CursosModule } from './cursos/cursos.module';
 import { DataBrindingComponent } from './data-brinding/data-brinding.component';
 import { InputPropertyComponent } from './input-property/input-property.component';
+import { OutputPropertyComponent } from './output-property/output-property.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { InputPropertyComponent } from './input-property/input-property.componen
     MeuPrimeiro2Component,
     DataBrindingComponent,
     InputPropertyComponent,
+    OutputPropertyComponent,
     
   ],
   imports: [

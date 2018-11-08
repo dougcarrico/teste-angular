@@ -23,6 +23,8 @@ export class DataBrindingComponent implements OnInit {
 
   nomeDoCurso: string = 'Angular';
 
+  valorinicial = 15;
+
   getValor(){
     return 3;
   }
@@ -46,6 +48,10 @@ export class DataBrindingComponent implements OnInit {
 
   onMouseOverOut(){
     this.isMouseOver = !this.isMouseOver;
+  }
+
+  onMudouValor(evento){
+    console.log(evento.novoValor);
   }
 
   constructor() { 

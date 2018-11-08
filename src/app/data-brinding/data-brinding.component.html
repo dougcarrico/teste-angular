@@ -119,7 +119,12 @@
 <h3>Input/Output Properties</h3>
 
 <app-curso [nome]='nomeDoCurso'></app-curso>
+
+<contador-component [valor]='valorinicial'
+(mudouValor)="onMudouValor($event)"
+></contador-component>
   </article>
-
-
 </section>
+
+
+

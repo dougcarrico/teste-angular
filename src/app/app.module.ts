@@ -11,6 +11,7 @@ import { CursosModule } from './cursos/cursos.module';
 import { DataBrindingComponent } from './data-brinding/data-brinding.component';
 import { InputPropertyComponent } from './input-property/input-property.component';
 import { OutputPropertyComponent } from './output-property/output-property.component';
+import { CicloComponent } from './ciclo/ciclo.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { OutputPropertyComponent } from './output-property/output-property.compo
     DataBrindingComponent,
     InputPropertyComponent,
     OutputPropertyComponent,
+    CicloComponent,
     
   ],
   imports: [

@@ -17,3 +17,14 @@
     bottom: 10px;
     right: 10px;
 }
+
+@media (min-width: 500px){
+    .slider-container{
+        display: none;
+    }
+
+    .float-button{
+        display:none;
+    }
+
+}
